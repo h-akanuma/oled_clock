@@ -31,5 +31,6 @@ end
 
 if $0 == __FILE__
   display = Display.new
-  display.execute
+  display.println('Hello World')
+  display.show
 end
